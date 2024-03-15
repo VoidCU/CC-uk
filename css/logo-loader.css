@@ -13,17 +13,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    animation: zoomInOut 2s ease-in-out infinite;
+    opacity: 1;
 }
 
 #company-logo {
-    width: 200px; /* Set the size of your logo as needed */
+    width: 400px; /* Set the size of your logo as needed */
+    border-radius:400px;
     height: auto;
 }
 
 #content-container {
-    opacity: 1;
+    opacity: 0;
     transition: opacity 1s ease-in-out;
 }
 
