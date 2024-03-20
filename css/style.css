@@ -1973,3 +1973,14 @@ box-shadow: 0 15px 38px rgba(0, 0, 0, 0.1);
 padding-top: 60px;
 }
 
+.cleaning-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+@media (max-width: 848px) {
+    .cleaning-div video {
+        width: 90vw;
+    }
+}
