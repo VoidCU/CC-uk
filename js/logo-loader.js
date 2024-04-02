@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Display the logo for 4 seconds before fading out
   setTimeout(function () {
     document.getElementById('logo-container').style.opacity = 0;
+    document.getElementById('company-logo').style.display = 'none';
     document.getElementById('content-container').style.opacity = 1;
   }, 2200);
 });
